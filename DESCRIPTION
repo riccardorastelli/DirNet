@@ -1,0 +1,21 @@
+Package: DirNet
+Type: Package
+Title: Analysis of Dynamic Networks Using a Dirichlet Distribution for
+        Edge Weights
+Version: 1.0.0
+Date: 2021-02-19
+Authors@R: c(person("Riccardo", "Rastelli", role = c("aut", "cre"),
+                    email = "riccardoras@gmail.com",
+                    comment = c(ORCID = "0000-0003-0982-2935")),
+             person("Juraj", "Hledik", role = "aut"))
+Description: The package implements a methodology to fit a statistical model to non-negatively weighted network data that evolves over time. Hledik, J. and Rastelli, R. (2018) "A dynamic network model to measure exposure diversification in the Austrian interbank market" <arXiv:1804.01367>.
+License: GPL-3
+Imports: Rcpp (>= 0.12.10)
+LinkingTo: Rcpp, RcppArmadillo
+LazyData: TRUE
+Depends: R (>= 3.5.0)
+NeedsCompilation: yes
+Packaged: 2021-02-20 10:43:27 UTC; riccardo
+Author: Riccardo Rastelli [aut, cre] (<https://orcid.org/0000-0003-0982-2935>),
+  Juraj Hledik [aut]
+Maintainer: Riccardo Rastelli <riccardoras@gmail.com>

@@ -1,0 +1,4 @@
+useDynLib(DirNet, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+export("dirnet_posterior")
+export("dirnet_GS")
